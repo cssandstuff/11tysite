@@ -1,5 +1,24 @@
 {
+  "name": "11ty2-starter",
+  "version": "0.0.1",
+  "description": "A Starter site for 11vty 2.0 with webC",
+  "main": "index.js",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0-beta.3"
-  }
+    "@11ty/eleventy": "^2.0.0-beta.3",
+    "@11ty/eleventy-plugin-webc": "^0.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cssandstuff/11tysite.git"
+  },
+  "author": "tim@cssandstuff.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cssandstuff/11tysite/issues"
+  },
+  "homepage": "https://github.com/cssandstuff/11tysite#readme"
 }

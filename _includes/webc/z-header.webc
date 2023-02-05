@@ -1,0 +1,6 @@
+<p>Ho Ho!</p>
+<style webc:scoped>
+:host{
+    background: pink;
+}
+</style>
