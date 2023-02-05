@@ -1,6 +1,7 @@
-<p>Ho Ho!</p>
+<p>ho</p>Ho Ho!
+<slot></slot>
 <style webc:scoped>
-:host{
-    background: pink;
-}
+    :host{
+        background-color: pink;
+    }
 </style>
