@@ -1,6 +1,0 @@
----
-layout: "layout.webc"
----
-
-my content
-<z-header>hey hey</z-header>

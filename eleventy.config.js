@@ -1,8 +1,12 @@
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginWebc = require("@11ty/eleventy-plugin-webc");
 
 module.exports = function(eleventyConfig) {
+
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
 	eleventyConfig.addPlugin(pluginWebc,{
-		components: "_includes/webc/*.webc"
+		components: "src/_includes/webc/*.webc"
 	});
 
 	eleventyConfig.addWatchTarget("./css/*.css");
@@ -38,5 +42,12 @@ module.exports = function(eleventyConfig) {
 	
 		// Change the default file encoding for reading/serving files
 		encoding: "utf-8",
-	  });
+	});
+
+	return {
+    dir: {
+      input: "src",
+      output: "_site"
+    }
+  }
 };
