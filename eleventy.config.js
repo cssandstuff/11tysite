@@ -1,9 +1,6 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginWebc = require("@11ty/eleventy-plugin-webc");
 
 module.exports = function(eleventyConfig) {
-
-	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 	eleventyConfig.addPlugin(pluginWebc,{
 		components: "src/_includes/webc/*.webc"
