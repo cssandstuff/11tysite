@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>WebC Example</title>
+		<link rel="stylesheet" href="css/style.css" webc:keep />
+		<style @raw="getCSS(page.url)" webc:keep></style>
+	</head>
+	<body>
+		<c-header>
+			This is a Web C starter site
+		</c-header>
+		<main>
+			<div @raw="content"></div>
+		</main>
+	</body>
+</html>

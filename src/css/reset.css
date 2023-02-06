@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--mint);
+	font-family: sans-serif;
+	color: var(--white);
+}
+
+p { 
+	margin: 0; 
+}
