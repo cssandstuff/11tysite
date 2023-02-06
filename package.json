@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx @11ty/eleventy --watch --serve --incremental"
+    "start": "npx @11ty/eleventy --watch --serve --incremental",
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
