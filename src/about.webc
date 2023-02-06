@@ -3,5 +3,4 @@ layout: "layout.webc"
 title: About
 ---
 
-my content
-<c-header>hey hey</c-header>
+This is a small 11ty site to help get started using webC.

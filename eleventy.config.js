@@ -6,8 +6,8 @@ module.exports = function(eleventyConfig) {
 		components: "src/_includes/webc/*.webc"
 	});
 
-	eleventyConfig.addWatchTarget("./css/*.css");
-	eleventyConfig.addPassthroughCopy("./css/*.css");
+	eleventyConfig.addWatchTarget("./src/css/*.css");
+	eleventyConfig.addPassthroughCopy("./src/css/*.css");
 	
 	eleventyConfig.setServerOptions({
 		// Default values are shown:

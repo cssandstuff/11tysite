@@ -3,3 +3,11 @@
     <c-copyright></c-copyright>
   </p>
 </footer>
+
+<style webc:scoped>
+	footer{
+		display: block;
+		padding: var(--padding);
+		background-color: var(--lightgrey);
+	}
+</style>

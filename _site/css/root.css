@@ -18,4 +18,7 @@
 	--white: #fff;
 	--padding: 0.8em;
 	--margin: 1.2em;
+
+	--dark: --black;
+	--light: --white;
 }
