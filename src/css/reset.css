@@ -11,7 +11,7 @@ html{
 body {
 	font-size: 1em;
 	background-color: var(--background);
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Roboto Flex', 'Breeze Sans', 'Trebuchet MS', sans-serif;
+	font-family: 'Breeze Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Roboto Flex', 'Trebuchet MS', sans-serif;
 	color: var(--foreground);
 	display: grid;
 	grid-template-rows: auto 1fr auto;
