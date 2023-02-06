@@ -1,7 +1,7 @@
 <footer>
-  <p>
-    <c-copyright></c-copyright>
-  </p>
+	<p>
+		<c-copyright></c-copyright>
+	</p>
 </footer>
 
 <style webc:scoped>

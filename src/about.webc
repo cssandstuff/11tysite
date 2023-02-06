@@ -3,4 +3,11 @@ layout: "layout.webc"
 title: About
 ---
 
-This is a small 11ty site to help get started using webC.
+
+<p>
+  This is a small 11ty site to help get started using WebC.
+</p>
+<c-heading @level="2">
+  Level 2 heading.....
+</c-heading>
+<p>Another paragraph</p>

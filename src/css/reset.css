@@ -23,6 +23,7 @@ body {
 }
 
 main{
+	max-width: 56ch;
 	padding: var(--padding) calc(var(--padding) * 2)
 }
 

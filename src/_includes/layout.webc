@@ -7,13 +7,13 @@
 		<style @raw="getCSS(page.url)" webc:keep></style>
 	</head>
 	<body>
-		<c-header>
-			This is a Web C starter site
-		</c-header>
-		<main>
+		<c-heading @level="1">
+			WebC starter site
+		</c-heading>
+		<c-main>
 			<c-navigation></c-navigation>
 			<div @raw="content"></div>
-		</main>
+		</c-main>
 		<c-footer/>
 	</body>
 </html>
