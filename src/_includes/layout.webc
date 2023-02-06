@@ -11,7 +11,7 @@
 			This is a Web C starter site
 		</c-header>
 		<main>
-			<c-navigation />
+			<c-navigation></c-navigation>
 			<div @raw="content"></div>
 		</main>
 		<c-footer/>
