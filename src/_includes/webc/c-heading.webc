@@ -1,0 +1,21 @@
+<script webc:type="js" webc:is="template">
+	if (level) {
+		isLevel = `<h${level} class=\"h h${level}\"><slot></slot></h${level}>`
+	} 
+</script>
+
+<style webc:scoped>
+	:host .h{
+		display: block;
+	}
+
+	:host .h1{
+		padding: calc(var(--padding)/2) var(--padding);
+		background-color: var(--cyan);
+		color: var(--black);
+	}
+
+	:host *+* {
+		margin-top: calc(var(--margin)/2);
+	}
+</style>
