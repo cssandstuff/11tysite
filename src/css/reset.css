@@ -5,6 +5,7 @@
 html{
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 body {
@@ -20,8 +21,7 @@ body {
 		"a"
 		"b"
 		"c";
-	min-height: 100vh;
-	min-height: -webkit-fill-available;
+	height: 100%;
 }
 
 main{
