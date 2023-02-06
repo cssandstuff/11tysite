@@ -1,11 +1,13 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-body{
-    background-color: var(--mint);
-    font-family: sans-serif;
-    color: var(--white);
+body {
+	background-color: var(--mint);
+	font-family: sans-serif;
+	color: var(--white);
 }
 
-p{margin: 0;}
+p { 
+	margin: 0; 
+}

@@ -7,7 +7,9 @@
 		<style @raw="getCSS(page.url)" webc:keep></style>
 	</head>
 	<body>
-		<z-header>hey hey</z-header>
+		<c-header>
+			This is a Web C starter site
+		</c-header>
 		<main>
 			<div @raw="content"></div>
 		</main>
