@@ -3,7 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<title>WebC Example</title>
+		<link rel="stylesheet" href="css/style.css" webc:keep />
 		<style @raw="getCSS(page.url)" webc:keep></style>
 	</head>
-	<body @raw="content"></body>
+	<body>
+		<z-header>hey hey</z-header>
+		<main>
+			<div @raw="content"></div>
+		</main>
+	</body>
 </html>

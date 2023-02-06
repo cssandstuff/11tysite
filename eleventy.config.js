@@ -4,6 +4,9 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginWebc,{
 		components: "_includes/webc/*.webc"
 	});
+
+	eleventyConfig.addWatchTarget("./css/style.css");
+	eleventyConfig.addPassthroughCopy("./css/*.css");
 	
 	eleventyConfig.setServerOptions({
 		// Default values are shown:
@@ -22,7 +25,7 @@ module.exports = function(eleventyConfig) {
 		// Accepts an Array of file paths or globs (passed to `chokidar.watch`).
 		// Works great with a separate bundler writing files to your output folder.
 		// e.g. `watch: ["_site/**/*.css"]`
-		watch: [],
+		watch: ["_site/css/*.css"],
 	
 		// Show local network IP addresses for device testing
 		showAllHosts: false,
