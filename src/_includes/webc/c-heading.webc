@@ -4,6 +4,10 @@
 	} 
 </script>
 
+<!-- 
+	could also be done like this
+	<h1 webc:if="level==='1'"></h1> -->
+
 <style webc:scoped>
 	:host .h{
 		display: block;
