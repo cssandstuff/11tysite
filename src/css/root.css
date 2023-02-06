@@ -12,7 +12,8 @@
 	--blue: #09c;
 	--royal: #36b;
 	--purple: #639;
-	--lightgrey: #c3c3c3;
+	--lightgrey: #d3d3d3;
+	--darkgrey: #444;
 	--grey: #858585;
 	--black: #111;
 	--white: #fff;
@@ -21,6 +22,8 @@
 	--space-3: calc(var(--space) * 3);
 	--margin: var(--space-2);
 
-	--dark: --black;
-	--light: --white;
+	--foreground: var(--black);
+	--background: var(--white);
+
+	--foreground-100: var(--lightgrey)
 }

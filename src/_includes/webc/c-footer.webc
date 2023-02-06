@@ -2,12 +2,13 @@
 	<p>
 		<c-copyright></c-copyright>
 	</p>
+	<c-theme></c-theme>
 </footer>
 
 <style webc:scoped>
-	footer{
+	:host {
 		display: block;
 		padding: var(--space);
-		background-color: var(--lightgrey);
+		background-color: var(--foreground-100);
 	}
 </style>

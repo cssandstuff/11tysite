@@ -14,6 +14,7 @@
 			<c-navigation></c-navigation>
 			<div @raw="content"></div>
 		</c-main>
-		<c-footer/>
+		<c-footer></c-footer>
+		<script type="module" @raw="getJS(page.url)" webc:keep></script>
 	</body>
 </html>
