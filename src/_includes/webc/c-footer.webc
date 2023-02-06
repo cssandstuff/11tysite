@@ -7,7 +7,7 @@
 <style webc:scoped>
 	footer{
 		display: block;
-		padding: var(--padding);
+		padding: var(--space);
 		background-color: var(--lightgrey);
 	}
 </style>

@@ -4,8 +4,7 @@
 	} 
 </script>
 
-<!-- 
-	could also be done like this
+<!-- could also be done like this
 	<h1 webc:if="level==='1'"></h1> -->
 
 <style webc:scoped>
@@ -14,9 +13,13 @@
 	}
 
 	:host .h1{
-		padding: calc(var(--padding)/2) var(--padding);
-		background-color: var(--cyan);
+		padding: var(--space);
+		background-color: var(--yellow);
 		color: var(--black);
+	}
+
+	:host .h2{
+		margin-top: var(--space-2);
 	}
 
 	:host *+* {
