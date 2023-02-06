@@ -1,1 +1,1 @@
-11ty site for ma blog
+This is an 11ty 2.0 starter site using webC.
