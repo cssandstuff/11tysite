@@ -7,18 +7,19 @@
 		<style>.wm3oxlxv_ .h{display:block}.wm3oxlxv_ .h1{padding:var(--space);background-color:var(--yellow);color:var(--black)}.wm3oxlxv_ .h2{margin-top:var(--space-2)}.wm3oxlxv_ *+*{margin-top:calc(var(--margin)/2)}
 .wawigbfda{display:block;padding:var(--space);background-color:var(--foreground-100)}
 
-	
-c-theme:has(input:checked)::after{
-	content: 'is dark!'
-}
+	/* might want this scoped or pass props to components or some other solution but for now this works */
+	c-theme:has(input:checked)::after{
+		content: 'is dark!'
+	}
 
 
-body:has(c-theme input:checked){
-	--background: var(--black);
-	--foreground: var(--white);
-	--foreground-100: var(--darkgrey);
-}
-
+	body:has(c-theme input:checked){
+		--background: var(--black);
+		--foreground: var(--white);
+		--foreground-100: var(--darkgrey);
+		--linkColor: var(--teal);
+		--linkVisited: var(--blue);
+	}
 
 .wjle15myl div>*+*{display:block;margin-top:calc(var(--margin)/2)}
 .wojl11tv7 .nav{margin-bottom:var(--space-3)}.wojl11tv7 .nav ul{display:flex;gap:var(--space);margin:0;padding:0}.wojl11tv7 .nav ul li{list-style:none;padding:0;margin:0}.wojl11tv7 .selected a{text-decoration-thickness:2px}.wojl11tv7 .nav ul li:first-child{margin-left:calc(var(--space)/3*-1)}.wojl11tv7 .nav ul li a{padding:var(--space) calc(var(--space)/2);display:block}
@@ -87,10 +88,10 @@ body:has(c-theme input:checked){
 			let inputToggle = this.querySelector("input");
 			let darkMode = window.localStorage.getItem("darkMode");
 			
-			if(!darkMode){
+			if(!darkMode) {
 				darkMode =  false
 				inputToggle.checked = false;
-			}else if(darkMode==="true"){
+			}else if(darkMode==="true") {
 				darkMode =  true;
 				inputToggle.checked = true;
 			}
@@ -101,7 +102,7 @@ body:has(c-theme input:checked){
 
 			function toggle(){
 				darkMode = !darkMode;
-				window.localStorage.setItem('darkMode',darkMode);	
+				window.localStorage.setItem('darkMode', darkMode);	
 			}
 		}
 	}

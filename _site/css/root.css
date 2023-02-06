@@ -24,6 +24,8 @@
 
 	--foreground: var(--black);
 	--background: var(--white);
+	--linkColor: var(--blue);
+	--linkVisited: var(--royal);
 
 	--foreground-100: var(--lightgrey)
 }

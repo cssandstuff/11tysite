@@ -42,9 +42,9 @@ a{
 }
 
 a:active, a:link{
-	color: var(--blue);
+	color: var(--linkColor);
 }
 
 a:visited{
-	color: var(--royal);
+	color: var(--linkVisited);
 }
