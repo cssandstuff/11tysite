@@ -22,13 +22,9 @@
 			}
 
 			inputToggle.addEventListener("click", () => {
-				toggle();
+				window.localStorage.setItem('darkMode', inputToggle.checked);
 			})
 
-			function toggle(){
-				darkMode = !darkMode;
-				window.localStorage.setItem('darkMode', darkMode);	
-			}
 		}
 	}
 
@@ -47,6 +43,5 @@
 		--foreground: var(--white);
 		--foreground-100: var(--darkgrey);
 		--linkColor: var(--teal);
-		--linkVisited: var(--blue);
 	}
 </style>

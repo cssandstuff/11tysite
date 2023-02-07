@@ -1,7 +1,7 @@
 <nav class="nav">
 <ul>
 <script webc:type="js" webc:is="template">
-	collections.all
+	collections.all.slice(0).reverse()
 		.map((item) => `<li class="${title==item.data.title ? `selected` : ''}">
 				<a href="${item.url}">${item.data.title}</a>
 			</li>`)
@@ -27,6 +27,7 @@
 	}
 	.selected a{
 		text-decoration-thickness: 2px;
+		text-decoration-color: var(--linkColor);
 	}
 	.nav ul li:first-child{
 		margin-left: calc( var(--space)/ 3 * -1)
